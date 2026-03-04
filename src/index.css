@@ -1336,3 +1336,38 @@ body {
   transform: scale(1.08);
   transition: transform 0.3s ease;
 }
+
+@media (max-width: 600px) and (orientation: portrait) {
+
+  /* La card pasa a columna vertical, no horizontal */
+  .tema-card {
+    flex-direction: column;
+    gap: 6px;
+  }
+
+  /* La imagen vuelve a ser ancho completo pero más pequeña */
+  .tema-img {
+    width: 100%;
+    height: 60px;
+    aspect-ratio: unset;
+    font-size: 1.6rem;
+  }
+
+  /* Ocultar duración y etiqueta de película para no apelotonar */
+  .tema-meta {
+    display: none;
+  }
+
+  /* El botón siempre visible y ancho completo */
+  .btn-reproducir {
+    width: 100%;
+    padding: 10px;
+    font-size: 0.8rem;
+  }
+
+  /* Nombre del tema un poco más pequeño */
+  .tema-nombre {
+    font-size: 0.8rem;
+    line-height: 1.3;
+  }
+}
