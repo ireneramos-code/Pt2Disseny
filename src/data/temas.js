@@ -1,0 +1,18 @@
+export const TEMAS = [
+    { id: 1, emoji: "🌊", nombre: "This Is Berk", duracion: "2:20", pelicula: "HTTYD 1" },
+    { id: 2, emoji: "🐉", nombre: "Dragon Training", duracion: "3:14", pelicula: "HTTYD 1" },
+    { id: 3, emoji: "🌙", nombre: "Test Drive", duracion: "3:38", pelicula: "HTTYD 1" },
+    { id: 4, emoji: "⚔️", nombre: "Forbidden Friendship", duracion: "3:32", pelicula: "HTTYD 1" },
+    { id: 5, emoji: "🔥", nombre: "See You Tomorrow", duracion: "2:05", pelicula: "HTTYD 1" },
+    { id: 6, emoji: "🌅", nombre: "The Downed Dragon", duracion: "2:54", pelicula: "HTTYD 1" },
+    { id: 7, emoji: "🦅", nombre: "Coming Back Around", duracion: "2:26", pelicula: "HTTYD 1" },
+    { id: 8, emoji: "💥", nombre: "Where's Hiccup?", duracion: "3:11", pelicula: "HTTYD 1" },
+    { id: 9, emoji: "🎶", nombre: "Romantic Flight", duracion: "4:10", pelicula: "HTTYD 1" },
+    { id: 10, emoji: "🏔️", nombre: "The Dragon Book", duracion: "1:58", pelicula: "HTTYD 2" },
+    { id: 11, emoji: "🌊", nombre: "Flying with Mother", duracion: "3:45", pelicula: "HTTYD 2" },
+    { id: 12, emoji: "👑", nombre: "For the Dancing and the Dreaming", duracion: "3:22", pelicula: "HTTYD 2" },
+    { id: 13, emoji: "🌟", nombre: "Stoick's Ship", duracion: "3:07", pelicula: "HTTYD 2" },
+    { id: 14, emoji: "🌌", nombre: "Toothless Lost", duracion: "2:48", pelicula: "HTTYD 2" },
+    { id: 15, emoji: "🐾", nombre: "Something I Need to Tell You", duracion: "2:33", pelicula: "HTTYD 3" },
+    { id: 16, emoji: "✨", nombre: "The Hidden World", duracion: "4:02", pelicula: "HTTYD 3" },
+]
