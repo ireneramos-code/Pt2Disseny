@@ -1,3 +1,4 @@
+import johnPowellImg from '../assets/john-powell.webp'
 export default function Compositor() {
     return (
         <section className="section">
@@ -9,7 +10,7 @@ export default function Compositor() {
                 <div className="compositor-img-wrap">
                     <img
                         className="compositor-img"
-                        src="/johnPowell.webp"
+                        src={johnPowellImg}
                         alt="John Powell"
                     /></div>
 
